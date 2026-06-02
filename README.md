@@ -1,29 +1,39 @@
 ## Welcome to my Portfolio
 
-# Rukayat AMZAT
-Machine Learning Engineer | Data Analyst | AI Engineer
+# Hi, I’m Rukayat Amzat 👋
+
+### Machine Learning Engineer | Data Analyst | AI Engineer | Sustainability Engineer
 
 MSc Advanced Chemical Engineering (Distinction)
+
 University of Manchester
 
 Building machine learning systems, data analytics solutions, and AI applications for sustainability & carbon capture research.
 
-Connect:
-[LinkedIn](https://www.linkedin.com/in/rukayat-amzat-889839173/) 
-[Github](https://github.com/Rukaya-lab) 
+📬 Let's Connect:
+🔗 [LinkedIn](https://www.linkedin.com/in/rukayat-amzat-889839173/) 
+
+💻 [GitHub](https://github.com/Rukaya-lab) 
 
 
 # Featured Project
 
-## Physics-Informed Feature Engineering and ML Prediction for CO2 Adsorption in Metal-Organic Frameworks (MOFs)
+## [Physics-Informed Feature Engineering and ML Prediction for CO2 Adsorption in Metal-Organic Frameworks (MOFs)](https://github.com/Rukaya-lab/Engineering-ML-Features-for-MOF-CO2-Adsorption)
 
 Problem Statement: Traditional ML models for CO₂ adsorption in MOFs rely on geometric descriptors, which fail to capture complex adsorption behaviour at intermediate pressures.
 
 This work introduces energy-based features derived from CO₂ probe simulations, significantly improving predictive performance, especially in the 0.1–0.5 bar range.
 
+Approach:
+- Simulated CO₂ and O₂ probe interactions with MOF surfaces to model adsorption behaviour at the molecular level.
+- Computed interaction energies by evaluating probe–surface configurations across different orientations.
+- Transformed raw energy interaction data into structured energy distributions using histogram-based feature engineering.
+- Developed energy-based descriptors and compared them with conventional geometric features (e.g., surface area, pore size, density).
+- Combined geometric and energy-derived features to train machine learning models for CO₂ uptake prediction across multiple pressure points.
+
 Tools: Python, PowerBI, Auto-sklearn, CRAFTED MOF Database, CIF (crystallographic file), ASE atom package
 
-Highlights:
+Key Highlights:
 - 900+ engineered descriptors
 - CO₂ vs O₂ probe comparison
 - Feature engineering impact analysis
@@ -31,40 +41,49 @@ Highlights:
 
 ![](/images/Pg1.png)
 
+
 ![](/images/Pg2.png)
 
+
 ![](/images/Pg3.png)
+
 
 ![](/images/Pg 4.png)
 
 
 # ML/AI Projects
 
-## [AI_chatbot_LLM_QA_evaluator](https://github.com/Rukaya-lab/AI_Chatbot_Testing_LLM_evaluator)
+## [AI chatbot LLM QA evaluator](https://github.com/Rukaya-lab/AI_Chatbot_Testing_LLM_evaluator)
 
 Problem: LLM outputs are often inconsistent and difficult to evaluate manually at scale. This project demonstrates a simplified QA evaluation pipeline that mimics how AI-generated content can be systematically assessed using predefined rubrics, similar to early-stage RLHF evaluation workflows.
 
-Approach: Built a lightweight LLM evaluation framework that applies structured, rule-based rubrics to assess the quality of AI-generated responses. The system simulates an AI testing pipeline used in QA and GenAI evaluation workflows, enabling deterministic scoring without reliance on external APIs.
-
-The tool provides an interactive Streamlit interface where users can test “good” and “bad” model responses and observe how different quality dimensions (clarity, completeness, structure, and relevance) affect evaluation outcomes.
+Approach:
+- Built a lightweight LLM evaluation framework for assessing AI-generated responses using structured, rule-based rubrics.
+- Designed a deterministic scoring system that evaluates outputs across multiple dimensions including clarity, completeness, structure, and relevance.
+- Simulated an LLM evaluation pipeline commonly used in QA and GenAI testing workflows, without relying on external APIs.
+- Developed an interactive Streamlit interface that allows users to compare high-quality and low-quality responses and observe how evaluation scores change.
 
 Stack: Python, Streamlit, OpenAI API
 
 Example Usage:
 Users can select between:
-High-quality structured response (expected PASS)
+- High-quality structured response (expected PASS)
 
 ![](/images/llm-evaluator-1.png)
 
+
 ![](/images/llm-evaluator-2.png)
+
 
 ![](/images/llm-evaluator-3.png)
 
-Low-quality / nonsensical response (expected FAIL)
+- Low-quality / nonsensical response (expected FAIL)
 
 ![](/images/llm-evaluator-4.png)
 
+
 ![](/images/llm-evaluator-5.png)
+
 
 The system evaluates and returns:
 - Score breakdown
@@ -84,19 +103,13 @@ Problem: With LLM prevalent and trained on various human data, it poses the ques
 Solution: Integrate the data sources into the OpenAI querying pipeline.
 
 Approach: 
-  - Using the Langchain library.
-    - LangChain is an open-source framework designed for developing applications powered by a language model.
-    - It provides integration with OpenAI as the Large Language Model (LLM) and a PDF explorer library called UnstructuredPDFLoader.
-  - The files are then converted to a document langchain object.
-  - A vector store Index is used to convert the data in the documents to indexes that the LLM can understand.
-    **VectorstoreIndexCreator:**
-     Three main steps are going on in the background when the vectorstoreindex is used after the documents are loaded:
-      - Splitting documents into chunks
+- Built a Retrieval-Augmented Generation (RAG) pipeline for querying multiple PDF documents.
+- Used LangChain to orchestrate the LLM workflow and manage document processing.
+- Converted PDFs into structured document objects using UnstructuredPDFLoader.
+- Generated vector embeddings for document chunks and stored them in a vector database for semantic search.
+- Enabled context-aware querying by retrieving the most relevant document chunks and passing them to the LLM for response generation.
 
-      - Creating embeddings for each document
-
-      - Storing documents and embeddings in a vector store
-  - The created index can then be queried to return answers as found in the documents.
+Stack: Python, LangChain
 
 ![](/images/query.png)
 
@@ -106,6 +119,7 @@ Approach:
 Problem: Responding to large volumes of messages can be time-consuming and lead to missed communications.
 
 Solution: Developed a smart reply recommendation system that suggests relevant responses based on conversation context.
+
 Approach: 
 - Building Similarity indexes with the ANNOY library.
 - Employing Hdbscan clustering to cluster similar replies.
@@ -132,7 +146,7 @@ Future Improvements:
 
 
 
-# Computer Vision Projects
+# 👁 Computer Vision Projects
 
 ## [Face Recognition with Siamese Network](https://github.com/Rukaya-lab/Face-Verification-with-Siamese-Network-and-Kivy-App)
 Problem: Develop a face verification system capable of determining whether two images belong to the same person.
@@ -155,7 +169,7 @@ Technologies: Python, TensorFlow, OpenCV, Kivy, Computer Vision, Deep Learning
 ![](/images/kivy.png)
 
 
-# Predictive ML Projects
+# 📊 Predictive ML Projects
 
 ## [Detecting Hate Speech in Tweets](https://github.com/Rukaya-lab/NLP-notebooks/blob/main/Detecting%20Hate%20speech%20in%20tweet.ipynb)
 
@@ -223,7 +237,7 @@ Results:
 
 
 
-# Data Analysis Projects
+# 📈 Data Analysis Projects
 
 ## [Wrangle and Analyze Data: We Rate Dogs](https://github.com/Rukaya-lab/Project-/blob/main/WeRateDogs/wrangle_act.ipynb)
 
