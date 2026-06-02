@@ -11,6 +11,7 @@ University of Manchester
 Building machine learning systems, data analytics solutions, and AI applications for sustainability & carbon capture research.
 
 📬 Let's Connect:
+
 🔗 [LinkedIn](https://www.linkedin.com/in/rukayat-amzat-889839173/) 
 
 💻 [GitHub](https://github.com/Rukaya-lab) 
@@ -48,7 +49,7 @@ Key Highlights:
 ![](/images/Pg3.png)
 
 
-![](/images/Pg 4.png)
+![](/images/Pg4.png)
 
 
 # ML/AI Projects
@@ -162,9 +163,11 @@ Results:
 - Achieved precision and recall of 1.0 on the test dataset.
 - Developed a simple Kivy-based interface for real-time interaction with the model.
 
+Technologies: Python, TensorFlow, OpenCV, Kivy, Computer Vision, Deep Learning
+
+
 ![](/images/verified.jpg)
 
-Technologies: Python, TensorFlow, OpenCV, Kivy, Computer Vision, Deep Learning
 
 ![](/images/kivy.png)
 
