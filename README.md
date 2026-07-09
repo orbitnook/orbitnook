@@ -14,12 +14,12 @@ Building machine learning systems, data analytics solutions, and AI applications
 
 🔗 [LinkedIn](https://www.linkedin.com/in/rukayat-amzat-889839173/) 
 
-💻 [GitHub](https://github.com/Rukaya-lab) 
+💻 [GitHub](https://github.com/orbitnook) 
 
 
 # Featured Project
 
-## [Physics-Informed Feature Engineering and ML Prediction for CO2 Adsorption in Metal-Organic Frameworks (MOFs)](https://github.com/Rukaya-lab/Engineering-ML-Features-for-MOF-CO2-Adsorption)
+## [Physics-Informed Feature Engineering and ML Prediction for CO2 Adsorption in Metal-Organic Frameworks (MOFs)](https://github.com/orbitnook/Engineering-ML-Features-for-MOF-CO2-Adsorption)
 
 Problem Statement: Traditional ML models for CO₂ adsorption in MOFs rely on geometric descriptors, which fail to capture complex adsorption behaviour at intermediate pressures.
 
@@ -54,7 +54,7 @@ Key Highlights:
 
 # ML/AI Projects
 
-## [AI chatbot LLM QA evaluator](https://github.com/Rukaya-lab/AI_Chatbot_Testing_LLM_evaluator)
+## [AI chatbot LLM QA evaluator](https://github.com/orbitnook/AI_Chatbot_Testing_LLM_evaluator)
 
 Problem: LLM outputs are often inconsistent and difficult to evaluate manually at scale. This project demonstrates a simplified QA evaluation pipeline that mimics how AI-generated content can be systematically assessed using predefined rubrics, similar to early-stage RLHF evaluation workflows.
 
@@ -97,7 +97,7 @@ Possible Improvements:
 - Expand into dataset benchmarking tool for LLM outputs
 
 
-## [Querying and reading Multiple PDF files using OpenAI and Langchain](https://github.com/Rukaya-lab/OpenAI_ex/blob/main/Quering_Multiple_PDF_from_Vector_Store_using_Langchain.ipynb)
+## [Querying and reading Multiple PDF files using OpenAI and Langchain](https://github.com/orbitnook/OpenAI_ex/blob/main/Quering_Multiple_PDF_from_Vector_Store_using_Langchain.ipynb)
 
 Problem: With LLM prevalent and trained on various human data, it poses the question of hallucination. What if we want to leverage the benefit of large language models but have our own specific knowledge base, e.g. PDF files.
 
@@ -116,7 +116,7 @@ Stack: Python, LangChain
 
 
 
-## [Smart Conversation Reply](https://github.com/Rukaya-lab/Smart-Reply-suggest)
+## [Smart Conversation Reply](https://github.com/orbitnook/Smart-Reply-suggest)
 Problem: Responding to large volumes of messages can be time-consuming and lead to missed communications.
 
 Solution: Developed a smart reply recommendation system that suggests relevant responses based on conversation context.
@@ -129,7 +129,7 @@ Approach:
 
 Result:
 - Achieved 97% accuracy with a loss of 0.1177.
-- Generated multiple relevant reply suggestions for a given message..
+- Generated multiple relevant reply suggestions for a given message.
 
 Example usage:
    Input - bye
@@ -149,7 +149,7 @@ Future Improvements:
 
 # 👁 Computer Vision Projects
 
-## [Face Recognition with Siamese Network](https://github.com/Rukaya-lab/Face-Verification-with-Siamese-Network-and-Kivy-App)
+## [Face Recognition with Siamese Network](https://github.com/orbitnook/Face-Verification-with-Siamese-Network-and-Kivy-App)
 Problem: Develop a face verification system capable of determining whether two images belong to the same person.
 
 Approach: 
@@ -174,7 +174,7 @@ Technologies: Python, TensorFlow, OpenCV, Kivy, Computer Vision, Deep Learning
 
 # 📊 Predictive ML Projects
 
-## [Detecting Hate Speech in Tweets](https://github.com/Rukaya-lab/NLP-notebooks/blob/main/Detecting%20Hate%20speech%20in%20tweet.ipynb)
+## [Detecting Hate Speech in Tweets](https://github.com/orbitnook/NLP-notebooks/blob/main/Detecting%20Hate%20speech%20in%20tweet.ipynb)
 
 Problem: Classify tweets as hate speech or normal speech.
 
@@ -185,17 +185,17 @@ Approach:
 
 Dataset: 5,232 tweets (3,000 non-hateful, 2,242 hateful).
 
-![image](https://github.com/Rukaya-lab/Rukaya-lab.github.io/assets/74497446/3d469d62-5828-48a7-906f-f69384b179b2)
+![image](https://github.com/orbitnook/orbitnook/assets/74497446/3d469d62-5828-48a7-906f-f69384b179b2)
 
 Result:
 - Gaussian Naive Bayes: 60% accuracy
 - Multinomial Naive Bayes (with feature engineering): 86% accuracy.
   
-![image](https://github.com/Rukaya-lab/Rukaya-lab.github.io/assets/74497446/75c2deb1-8c7d-488a-a9c0-f2671e01ebb2)
+![image](https://github.com/orbitnook/orbitnook.github.io/assets/74497446/75c2deb1-8c7d-488a-a9c0-f2671e01ebb2)
 
 
 
-## [Heart Disease Prediction](https://github.com/Rukaya-lab/Tensorflow-practice/blob/main/Dp_Classification%2C_heart_disease.ipynb)
+## [Heart Disease Prediction](https://github.com/orbitnook/Tensorflow-practice/blob/main/Dp_Classification%2C_heart_disease.ipynb)
 Problem: Predict whether a patient has heart disease based on medical features.
 
 Dataset: 14 clinical variables, ~300 samples.
@@ -217,7 +217,7 @@ Results:
 
 
 
-## [Credit Card Lead Prediction](https://github.com/Rukaya-lab/Project-/blob/main/Credit_card_interest_classification.ipynb)
+## [Credit Card Lead Prediction](https://github.com/orbitnook/Project-/blob/main/Credit_card_interest_classification.ipynb)
 
 Problem: Predict customer interest in credit card offers for a retail bank.
 
@@ -233,16 +233,16 @@ Results:
 - Best model (Neural Network): ~85.8% accuracy
 - Strong F1-score performance after handling imbalance
   
-![image](https://github.com/Rukaya-lab/Rukaya-lab.github.io/assets/74497446/46454917-682a-4d91-a7b3-ae8096d20c6f)
+![image](https://github.com/orbitnook/orbitnook/assets/74497446/46454917-682a-4d91-a7b3-ae8096d20c6f)
 
      
-![image](https://github.com/Rukaya-lab/Rukaya-lab.github.io/assets/74497446/21d7a2bf-be91-4abf-81f8-7754bdb6bc59)
+![image](https://github.com/orbitnook/orbitnook/assets/74497446/21d7a2bf-be91-4abf-81f8-7754bdb6bc59)
 
 
 
 # 📈 Data Analysis Projects
 
-## [Wrangle and Analyze Data: We Rate Dogs](https://github.com/Rukaya-lab/Project-/blob/main/WeRateDogs/wrangle_act.ipynb)
+## [Wrangle and Analyze Data: We Rate Dogs](https://github.com/orbitnook/Project-/blob/main/WeRateDogs/wrangle_act.ipynb)
 
 Problem: Clean and analyse messy real-world social media data. 
 
@@ -256,11 +256,11 @@ Key Insights:
 - Retweets peaked in 2016
 - Popular dog names included Charlie, Cooper, Lucy, and Oliver
 
-![image](https://github.com/Rukaya-lab/Rukaya-lab.github.io/assets/74497446/9f20079b-ea18-4dd2-873d-c30509e85d32)
+![image](https://github.com/orbitnook/orbitnook/assets/74497446/9f20079b-ea18-4dd2-873d-c30509e85d32)
 
 
 
-## [Investigate a Dataset: No Show Appointment](https://github.com/Rukaya-lab/Project-/blob/main/Investigate_a_Dataset.ipynb)
+## [Investigate a Dataset: No Show Appointment](https://github.com/orbitnook/Project-/blob/main/Investigate_a_Dataset.ipynb)
 
 Problem: Understand factors influencing missed medical appointments.
 
@@ -275,7 +275,7 @@ Key Insights:
 - Females were overrepresented in the dataset
 - Teenagers with hypertension showed lower attendance rates (<70%).
 
-![image](https://github.com/Rukaya-lab/Rukaya-lab.github.io/assets/74497446/c5add26d-8aa8-4134-9d36-9f692b5e20af)
+![image](https://github.com/orbitnook/orbitnook/assets/74497446/c5add26d-8aa8-4134-9d36-9f692b5e20af)
 
 
 <!--
